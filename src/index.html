@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="passo a passo de flexbox">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Estrutura em container</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <nav class="cabecalho_menu">
+                <ul>
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="">Programação</a></li>
+                    <li><a href="">Linguagens</a></li>
+                    <li><a href="">Curiosidades</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="campo_de_pesquisa">
+            <form>
+                <input type="text" placeholder="Pesquisar por...">
+                <button>Pesquisar</button>
+            </form>
+        </section>
+        <article class="post">
+            <img src="./img/cover.png" alt="notebook em uma mesa de madeira com objetos ao redor">
+           
+            <h1 class="titulo_do_post">
+                Primeira aula sobre HTML e CSS, como aprender de forma mais eficiente
+            </h1>
+        
+            <p class="paragrafo_do_post">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure?
+            </p>
+            <blockquote class="paragrafo_de_citação">
+                <p>
+                    <em>
+                        “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure?Lorem ipsum dolor sit amet, consectetur adipisicing elit.“
+                    </em>
+                </p>
+            </blockquote>
+        </article>
+        <hr>
+        <section>
+            <div class="outras_leituras">
+    
+                    <article class="card_post">
+                        <header>
+                            <img src="./img/lastArticle1.png" alt="">
+                        </header>
+                        <main>
+                            <h3>
+                                CSS - Quais as melhores formas de acessar elementos
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a.
+                            </p>
+                            <a href="">Ler Noticia</a>
+                        </main>
+                    </article>
+                
+                    <article class="card_post">
+                       <header>
+                            <img src="./img/lastArticle2.png" alt="">
+                       </header>
+                       <main>
+                        <h3>
+                            Figma - Quando e como utilizar ao seu favor no dia dia como dev
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a.
+                        </p>
+                        <a href="">Ler Noticia</a>
+                       </main>
+                    </article>
+              
+                    <article class="card_post">
+                        <header>
+                            <img src="./img/lastArticle3.png" alt="">
+                        </header>
+                        <main>
+                            <h3>
+                                Editores de Código -  Como escolher um bom editor
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a.
+                            </p>
+                            <a href="">Ler Noticia</a>
+                        </main>
+                    </article>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+    </footer>
+    
+</body>
+</html>
